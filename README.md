@@ -4,15 +4,15 @@ This is the demo project of the article "[在 UIView 中和 UIButton 一樣設�
 
 ## Project Spec
 
-> build with Xcode 5.0.2
-> support iOS 6 and 7
+* build with Xcode 5.0.2
+* support iOS 6 and 7
 
 ## Structure
 
-> `UIButton` with background
-> `UIView` with pattern background.
-> `UIView` with poor-res resized background.
-> `UIView` with great res. resized background.
+* `UIButton` with background
+* `UIView` with pattern background.
+* `UIView` with poor-res resized background.
+* `UIView` with great res. resized background.
 
 ## License
 
