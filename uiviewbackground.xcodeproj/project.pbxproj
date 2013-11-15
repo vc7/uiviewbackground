@@ -21,6 +21,10 @@
 		BFB026A7183684AC001B56B4 /* icon_58.png in Resources */ = {isa = PBXBuildFile; fileRef = BFB026A0183684AC001B56B4 /* icon_58.png */; };
 		BFB026A8183684AC001B56B4 /* backgroundImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFB026A1183684AC001B56B4 /* backgroundImage@2x.png */; };
 		BFB026A9183684AC001B56B4 /* backgroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BFB026A2183684AC001B56B4 /* backgroundImage.png */; };
+		BFB026AE18368DA5001B56B4 /* KMButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB026AD18368DA5001B56B4 /* KMButtonViewController.m */; };
+		BFB026B118368DCB001B56B4 /* KMNormalBackgroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB026B018368DCB001B56B4 /* KMNormalBackgroundViewController.m */; };
+		BFB026B418368DE7001B56B4 /* KMLowResBackgroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB026B318368DE7001B56B4 /* KMLowResBackgroundViewController.m */; };
+		BFB026B718368E0A001B56B4 /* KMHiResBackgroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB026B618368E0A001B56B4 /* KMHiResBackgroundViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +48,14 @@
 		BFB026A0183684AC001B56B4 /* icon_58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_58.png; path = ui_raw/icon_58.png; sourceTree = "<group>"; };
 		BFB026A1183684AC001B56B4 /* backgroundImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "backgroundImage@2x.png"; path = "ui_raw/backgroundImage@2x.png"; sourceTree = "<group>"; };
 		BFB026A2183684AC001B56B4 /* backgroundImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backgroundImage.png; path = ui_raw/backgroundImage.png; sourceTree = "<group>"; };
+		BFB026AC18368DA5001B56B4 /* KMButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KMButtonViewController.h; path = Classes/KMButtonViewController.h; sourceTree = "<group>"; };
+		BFB026AD18368DA5001B56B4 /* KMButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KMButtonViewController.m; path = Classes/KMButtonViewController.m; sourceTree = "<group>"; };
+		BFB026AF18368DCB001B56B4 /* KMNormalBackgroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KMNormalBackgroundViewController.h; path = Classes/KMNormalBackgroundViewController.h; sourceTree = "<group>"; };
+		BFB026B018368DCB001B56B4 /* KMNormalBackgroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KMNormalBackgroundViewController.m; path = Classes/KMNormalBackgroundViewController.m; sourceTree = "<group>"; };
+		BFB026B218368DE7001B56B4 /* KMLowResBackgroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KMLowResBackgroundViewController.h; path = Classes/KMLowResBackgroundViewController.h; sourceTree = "<group>"; };
+		BFB026B318368DE7001B56B4 /* KMLowResBackgroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KMLowResBackgroundViewController.m; path = Classes/KMLowResBackgroundViewController.m; sourceTree = "<group>"; };
+		BFB026B518368E0A001B56B4 /* KMHiResBackgroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KMHiResBackgroundViewController.h; path = Classes/KMHiResBackgroundViewController.h; sourceTree = "<group>"; };
+		BFB026B618368E0A001B56B4 /* KMHiResBackgroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KMHiResBackgroundViewController.m; path = Classes/KMHiResBackgroundViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				BFB0269918366682001B56B4 /* Application */,
+				BFB026AB18368D5F001B56B4 /* View Controllers */,
 			);
 			name = Classes;
 			path = uiviewbackground;
@@ -142,6 +155,21 @@
 				BFB026A0183684AC001B56B4 /* icon_58.png */,
 			);
 			name = Application;
+			sourceTree = "<group>";
+		};
+		BFB026AB18368D5F001B56B4 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BFB026AC18368DA5001B56B4 /* KMButtonViewController.h */,
+				BFB026AD18368DA5001B56B4 /* KMButtonViewController.m */,
+				BFB026AF18368DCB001B56B4 /* KMNormalBackgroundViewController.h */,
+				BFB026B018368DCB001B56B4 /* KMNormalBackgroundViewController.m */,
+				BFB026B218368DE7001B56B4 /* KMLowResBackgroundViewController.h */,
+				BFB026B318368DE7001B56B4 /* KMLowResBackgroundViewController.m */,
+				BFB026B518368E0A001B56B4 /* KMHiResBackgroundViewController.h */,
+				BFB026B618368E0A001B56B4 /* KMHiResBackgroundViewController.m */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +243,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFB026B718368E0A001B56B4 /* KMHiResBackgroundViewController.m in Sources */,
+				BFB026AE18368DA5001B56B4 /* KMButtonViewController.m in Sources */,
+				BFB026B118368DCB001B56B4 /* KMNormalBackgroundViewController.m in Sources */,
+				BFB026B418368DE7001B56B4 /* KMLowResBackgroundViewController.m in Sources */,
 				BFB0267B18366639001B56B4 /* KMAppDelegate.m in Sources */,
 				BFB0267718366639001B56B4 /* main.m in Sources */,
 			);
