@@ -14,22 +14,14 @@
 		BFB0267718366639001B56B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB0267618366639001B56B4 /* main.m */; };
 		BFB0267B18366639001B56B4 /* KMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB0267A18366639001B56B4 /* KMAppDelegate.m */; };
 		BFB0267D18366639001B56B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB0267C18366639001B56B4 /* Images.xcassets */; };
-		BFB0268418366639001B56B4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB0268318366639001B56B4 /* XCTest.framework */; };
-		BFB0268518366639001B56B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB0266A18366639001B56B4 /* Foundation.framework */; };
-		BFB0268618366639001B56B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB0266E18366639001B56B4 /* UIKit.framework */; };
-		BFB0268E18366639001B56B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFB0268C18366639001B56B4 /* InfoPlist.strings */; };
-		BFB0269018366639001B56B4 /* uiviewbackgroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB0268F18366639001B56B4 /* uiviewbackgroundTests.m */; };
+		BFB026A3183684AC001B56B4 /* launchImage_r4.png in Resources */ = {isa = PBXBuildFile; fileRef = BFB0269C183684AC001B56B4 /* launchImage_r4.png */; };
+		BFB026A4183684AC001B56B4 /* launchImage_iPhone_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFB0269D183684AC001B56B4 /* launchImage_iPhone_@2x.png */; };
+		BFB026A5183684AC001B56B4 /* icon_120.png in Resources */ = {isa = PBXBuildFile; fileRef = BFB0269E183684AC001B56B4 /* icon_120.png */; };
+		BFB026A6183684AC001B56B4 /* icon_80.png in Resources */ = {isa = PBXBuildFile; fileRef = BFB0269F183684AC001B56B4 /* icon_80.png */; };
+		BFB026A7183684AC001B56B4 /* icon_58.png in Resources */ = {isa = PBXBuildFile; fileRef = BFB026A0183684AC001B56B4 /* icon_58.png */; };
+		BFB026A8183684AC001B56B4 /* backgroundImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFB026A1183684AC001B56B4 /* backgroundImage@2x.png */; };
+		BFB026A9183684AC001B56B4 /* backgroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BFB026A2183684AC001B56B4 /* backgroundImage.png */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		BFB0268718366639001B56B4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFB0265F18366638001B56B4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BFB0266618366639001B56B4;
-			remoteInfo = uiviewbackground;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		BFB0266718366639001B56B4 /* uiviewbackground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uiviewbackground.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,11 +35,15 @@
 		BFB0267918366639001B56B4 /* KMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMAppDelegate.h; sourceTree = "<group>"; };
 		BFB0267A18366639001B56B4 /* KMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMAppDelegate.m; sourceTree = "<group>"; };
 		BFB0267C18366639001B56B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		BFB0268218366639001B56B4 /* uiviewbackgroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uiviewbackgroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB0268318366639001B56B4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		BFB0268B18366639001B56B4 /* uiviewbackgroundTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "uiviewbackgroundTests-Info.plist"; sourceTree = "<group>"; };
-		BFB0268D18366639001B56B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BFB0268F18366639001B56B4 /* uiviewbackgroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = uiviewbackgroundTests.m; sourceTree = "<group>"; };
+		BFB0269B183666DB001B56B4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		BFB0269C183684AC001B56B4 /* launchImage_r4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launchImage_r4.png; path = ui_raw/launchImage_r4.png; sourceTree = "<group>"; };
+		BFB0269D183684AC001B56B4 /* launchImage_iPhone_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "launchImage_iPhone_@2x.png"; path = "ui_raw/launchImage_iPhone_@2x.png"; sourceTree = "<group>"; };
+		BFB0269E183684AC001B56B4 /* icon_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_120.png; path = ui_raw/icon_120.png; sourceTree = "<group>"; };
+		BFB0269F183684AC001B56B4 /* icon_80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_80.png; path = ui_raw/icon_80.png; sourceTree = "<group>"; };
+		BFB026A0183684AC001B56B4 /* icon_58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_58.png; path = ui_raw/icon_58.png; sourceTree = "<group>"; };
+		BFB026A1183684AC001B56B4 /* backgroundImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "backgroundImage@2x.png"; path = "ui_raw/backgroundImage@2x.png"; sourceTree = "<group>"; };
+		BFB026A2183684AC001B56B4 /* backgroundImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backgroundImage.png; path = ui_raw/backgroundImage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,26 +57,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BFB0267F18366639001B56B4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BFB0268418366639001B56B4 /* XCTest.framework in Frameworks */,
-				BFB0268618366639001B56B4 /* UIKit.framework in Frameworks */,
-				BFB0268518366639001B56B4 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		BFB0265E18366638001B56B4 = {
 			isa = PBXGroup;
 			children = (
-				BFB0267018366639001B56B4 /* uiviewbackground */,
-				BFB0268918366639001B56B4 /* uiviewbackgroundTests */,
+				BFB0267018366639001B56B4 /* Classes */,
+				BFB0269A183666B5001B56B4 /* Resources */,
+				BFB0267118366639001B56B4 /* Other Resources */,
 				BFB0266918366639001B56B4 /* Frameworks */,
 				BFB0266818366639001B56B4 /* Products */,
+				BFB0269B183666DB001B56B4 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,7 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				BFB0266718366639001B56B4 /* uiviewbackground.app */,
-				BFB0268218366639001B56B4 /* uiviewbackgroundTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,44 +91,57 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BFB0267018366639001B56B4 /* uiviewbackground */ = {
+		BFB0267018366639001B56B4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				BFB0267918366639001B56B4 /* KMAppDelegate.h */,
-				BFB0267A18366639001B56B4 /* KMAppDelegate.m */,
-				BFB0267C18366639001B56B4 /* Images.xcassets */,
-				BFB0267118366639001B56B4 /* Supporting Files */,
+				BFB0269918366682001B56B4 /* Application */,
 			);
+			name = Classes;
 			path = uiviewbackground;
 			sourceTree = "<group>";
 		};
-		BFB0267118366639001B56B4 /* Supporting Files */ = {
+		BFB0267118366639001B56B4 /* Other Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BFB0267C18366639001B56B4 /* Images.xcassets */,
 				BFB0267218366639001B56B4 /* uiviewbackground-Info.plist */,
 				BFB0267318366639001B56B4 /* InfoPlist.strings */,
 				BFB0267618366639001B56B4 /* main.m */,
 				BFB0267818366639001B56B4 /* uiviewbackground-Prefix.pch */,
 			);
-			name = "Supporting Files";
+			name = "Other Resources";
+			path = uiviewbackground;
 			sourceTree = "<group>";
 		};
-		BFB0268918366639001B56B4 /* uiviewbackgroundTests */ = {
+		BFB0269918366682001B56B4 /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				BFB0268F18366639001B56B4 /* uiviewbackgroundTests.m */,
-				BFB0268A18366639001B56B4 /* Supporting Files */,
+				BFB0267918366639001B56B4 /* KMAppDelegate.h */,
+				BFB0267A18366639001B56B4 /* KMAppDelegate.m */,
 			);
-			path = uiviewbackgroundTests;
+			name = Application;
 			sourceTree = "<group>";
 		};
-		BFB0268A18366639001B56B4 /* Supporting Files */ = {
+		BFB0269A183666B5001B56B4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				BFB0268B18366639001B56B4 /* uiviewbackgroundTests-Info.plist */,
-				BFB0268C18366639001B56B4 /* InfoPlist.strings */,
+				BFB026AA183684C8001B56B4 /* Application */,
+				BFB026A1183684AC001B56B4 /* backgroundImage@2x.png */,
+				BFB026A2183684AC001B56B4 /* backgroundImage.png */,
 			);
-			name = "Supporting Files";
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BFB026AA183684C8001B56B4 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				BFB0269C183684AC001B56B4 /* launchImage_r4.png */,
+				BFB0269D183684AC001B56B4 /* launchImage_iPhone_@2x.png */,
+				BFB0269E183684AC001B56B4 /* icon_120.png */,
+				BFB0269F183684AC001B56B4 /* icon_80.png */,
+				BFB026A0183684AC001B56B4 /* icon_58.png */,
+			);
+			name = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,24 +164,6 @@
 			productReference = BFB0266718366639001B56B4 /* uiviewbackground.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BFB0268118366639001B56B4 /* uiviewbackgroundTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BFB0269618366639001B56B4 /* Build configuration list for PBXNativeTarget "uiviewbackgroundTests" */;
-			buildPhases = (
-				BFB0267E18366639001B56B4 /* Sources */,
-				BFB0267F18366639001B56B4 /* Frameworks */,
-				BFB0268018366639001B56B4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BFB0268818366639001B56B4 /* PBXTargetDependency */,
-			);
-			name = uiviewbackgroundTests;
-			productName = uiviewbackgroundTests;
-			productReference = BFB0268218366639001B56B4 /* uiviewbackgroundTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -191,11 +173,6 @@
 				CLASSPREFIX = KM;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Kumaya;
-				TargetAttributes = {
-					BFB0268118366639001B56B4 = {
-						TestTargetID = BFB0266618366639001B56B4;
-					};
-				};
 			};
 			buildConfigurationList = BFB0266218366638001B56B4 /* Build configuration list for PBXProject "uiviewbackground" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -210,7 +187,6 @@
 			projectRoot = "";
 			targets = (
 				BFB0266618366639001B56B4 /* uiviewbackground */,
-				BFB0268118366639001B56B4 /* uiviewbackgroundTests */,
 			);
 		};
 /* End PBXProject section */
@@ -221,15 +197,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFB0267518366639001B56B4 /* InfoPlist.strings in Resources */,
+				BFB026A5183684AC001B56B4 /* icon_120.png in Resources */,
+				BFB026A3183684AC001B56B4 /* launchImage_r4.png in Resources */,
+				BFB026A9183684AC001B56B4 /* backgroundImage.png in Resources */,
+				BFB026A4183684AC001B56B4 /* launchImage_iPhone_@2x.png in Resources */,
+				BFB026A6183684AC001B56B4 /* icon_80.png in Resources */,
 				BFB0267D18366639001B56B4 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BFB0268018366639001B56B4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BFB0268E18366639001B56B4 /* InfoPlist.strings in Resources */,
+				BFB026A8183684AC001B56B4 /* backgroundImage@2x.png in Resources */,
+				BFB026A7183684AC001B56B4 /* icon_58.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,37 +220,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BFB0267E18366639001B56B4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BFB0269018366639001B56B4 /* uiviewbackgroundTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		BFB0268818366639001B56B4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BFB0266618366639001B56B4 /* uiviewbackground */;
-			targetProxy = BFB0268718366639001B56B4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BFB0267318366639001B56B4 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				BFB0267418366639001B56B4 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		BFB0268C18366639001B56B4 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BFB0268D18366639001B56B4 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -320,6 +271,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s armv6";
 			};
 			name = Debug;
 		};
@@ -354,6 +306,7 @@
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s armv6";
 			};
 			name = Release;
 		};
@@ -366,6 +319,7 @@
 				GCC_PREFIX_HEADER = "uiviewbackground/uiviewbackground-Prefix.pch";
 				INFOPLIST_FILE = "uiviewbackground/uiviewbackground-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -379,49 +333,8 @@
 				GCC_PREFIX_HEADER = "uiviewbackground/uiviewbackground-Prefix.pch";
 				INFOPLIST_FILE = "uiviewbackground/uiviewbackground-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		BFB0269718366639001B56B4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/uiviewbackground.app/uiviewbackground";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "uiviewbackground/uiviewbackground-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "uiviewbackgroundTests/uiviewbackgroundTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		BFB0269818366639001B56B4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/uiviewbackground.app/uiviewbackground";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "uiviewbackground/uiviewbackground-Prefix.pch";
-				INFOPLIST_FILE = "uiviewbackgroundTests/uiviewbackgroundTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -442,14 +355,6 @@
 			buildConfigurations = (
 				BFB0269418366639001B56B4 /* Debug */,
 				BFB0269518366639001B56B4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		BFB0269618366639001B56B4 /* Build configuration list for PBXNativeTarget "uiviewbackgroundTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BFB0269718366639001B56B4 /* Debug */,
-				BFB0269818366639001B56B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
