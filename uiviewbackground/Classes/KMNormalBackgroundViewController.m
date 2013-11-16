@@ -37,6 +37,15 @@
     KMAppDelegate *appDelegate     = (KMAppDelegate *)[[UIApplication sharedApplication] delegate];
     UIImage       *backgroundImage = appDelegate.backgroundImage;
     
+    UIView        *demoView        = [[UIView alloc] initWithFrame:CGRectMake(6, 20 + 6, 308, 140)];
+    
+    // !!!: 指定背景
+    demoView.backgroundColor       = [UIColor colorWithPatternImage:backgroundImage];
+    
+    self.view.backgroundColor      = [UIColor lightGrayColor];
+    
+    [self.view addSubview:demoView];
+    
 }
 
 - (void)didReceiveMemoryWarning
