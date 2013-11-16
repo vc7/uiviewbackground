@@ -8,11 +8,12 @@ This is the demo project of the article "[在 UIView 中和 UIButton 一樣設�
 * support iOS 6 and 7
 
 ## Structure
-
-* `UIButton` with background
-* `UIView` with pattern background.
-* `UIView` with poor-res resized background.
-* `UIView` with great res. resized background.
+| Item | View in App | Class Name |
+|------|:-----------:|------------|
+| `UIButton` with background. | *Button* Tab | `KMButtonViewController`
+| `UIView` with pattern background. | *Normal* Tab | `KMNormalBackgroundViewController`
+| `UIView` with poor-res resized background. | *Low-Res* Tab | `KMLowResBackgroundViewController`
+| `UIView` with great res. resized background. | *Hi-Res* Tab | `KMHiResBackgroundViewController`
 
 ## License
 
