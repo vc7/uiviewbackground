@@ -37,6 +37,28 @@
     KMAppDelegate *appDelegate     = (KMAppDelegate *)[[UIApplication sharedApplication] delegate];
     UIImage       *backgroundImage = appDelegate.backgroundImage;
     
+    UIView        *demoView        = [[UIView alloc] initWithFrame:CGRectMake(6, 20 + 6, 308, 140)];
+    
+    // !!!: 設定圖片邊框
+    UIImage  *buttonBackgroundImage = [backgroundImage resizableImageWithCapInsets:UIEdgeInsetsMake(3, 3, 3, 3)];
+    
+    // !!!: 根據想要加背景的 frame 建立一個 bitmap 繪圖區域
+    UIGraphicsBeginImageContext(demoView.frame.size);
+    
+    // !!!: 繪製背景
+    [buttonBackgroundImage drawInRect:demoView.bounds];
+    UIImage *newButtonBackgroundImage = UIGraphicsGetImageFromCurrentImageContext();
+    
+    // !!!: 結束繪圖區域
+    UIGraphicsEndImageContext();
+    
+    // !!!: 指定背景
+    demoView.backgroundColor       = [UIColor colorWithPatternImage:newButtonBackgroundImage];
+
+    self.view.backgroundColor      = [UIColor lightGrayColor];
+    
+    [self.view addSubview:demoView];
+    
 }
 
 - (void)didReceiveMemoryWarning
